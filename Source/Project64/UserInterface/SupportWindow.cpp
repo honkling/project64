@@ -128,7 +128,7 @@ LRESULT CSupportWindow::OnInitDialog(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*
 
         GetDlgItem(IDCANCEL).EnableWindow(false);
         srand ((uint32_t)time(nullptr));
-        SetTimer(0, 1000, nullptr);
+        //SetTimer(0, 1000, nullptr);
     }
     return TRUE;
 }
